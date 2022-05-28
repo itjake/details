@@ -1,0 +1,197 @@
+.hero__content {
+  margin-top: 50px;
+  padding: 0px 45px;
+  position: relative;
+}
+
+.hero__right {
+  margin-left: 40px;
+}
+.hero__rooms {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.right__first {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.li__first {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 117%;
+  /* or 37px */
+
+  letter-spacing: -0.03em;
+
+  color: #606060;
+}
+
+.hero__price__btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  background: #e0b973;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 41px;
+  margin-top: 8px;
+}
+
+.hero__info {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 117%;
+  /* or 37px */
+
+  letter-spacing: -0.03em;
+
+  color: #606060;
+}
+
+.right__second {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.second__ul {
+  margin-top: 30px;
+}
+
+.hero__caption {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000;
+    padding: 41px 0px;
+    text-align: center;
+}
+
+.tv{
+  position: relative;
+}
+
+.tv:hover:before{
+  position: absolute;
+  content: "IP Телевидение";
+  background-color: #ff4701;
+  color: #fff;
+  top:-80%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 100px;
+  left: 5%;
+}
+.closet{
+  position: relative;
+}
+
+.closet:hover:before{
+  position: absolute;
+  content: "Платяной шкаф";
+  background-color: #ff4701;
+  color: #fff;
+  top:-80%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 100px;
+  left: 5%;
+}
+.box{
+  position: relative;
+}
+
+.box:hover:before{
+  position: absolute;
+  content: "Персональный сейф";
+  background-color: #ff4701;
+  color: #fff;
+  top:-120%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 100px;
+  left: 5%;
+}
+.bar{
+  position: relative;
+}
+
+.bar:hover:before{
+  position: absolute;
+  content: "Минибар";
+  background-color: #ff4701;
+  color: #fff;
+  top:-80%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 100px;
+  left: 5%;
+}
+.air{
+  position: relative;
+}
+
+.air:hover:before{
+  position: absolute;
+  content: "Кондиционер";
+  background-color: #ff4701;
+  color: #fff;
+  top:-80%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 100px;
+  left: 5%;
+}
+.study{
+  position: relative;
+}
+
+.study:hover:before{
+  position: absolute;
+  content: "Прикроватные тумбы";
+  background-color: #ff4701;
+  color: #fff;
+  top:-120%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 100px;
+  left: 5%;
+}
+.desk{
+  position: relative;
+}
+
+.desk:hover:before{
+  position: absolute;
+  content: "Оффис";
+  background-color: #ff4701;
+  color: #fff;
+  top:-80%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  width: 50px;
+  left: 5%;
+}
